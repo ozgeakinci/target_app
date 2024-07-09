@@ -1,12 +1,15 @@
+import { View, Text, Pressable } from "react-native";
 
-import {View,Text } from 'react-native'
-
-const PrimaryButton = ({children}) => {
-  return(
-    <View>
+const PrimaryButton = ({ children }) => {
+  return (
+    <Pressable onPress={()=> {
+        console.log('hey')
+    }}>
+      <View>
         <Text>{children}</Text>
-    </View>
-  )
-}
+      </View>
+    </Pressable>
+  );
+};
 
-export default PrimaryButton
+export default PrimaryButton;
