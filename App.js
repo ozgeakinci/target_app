@@ -28,8 +28,9 @@ export default function App() {
   setIsGameOver(false);
  }
 
- const gameOverHandler = ()=> {
+ const gameOverHandler = (gueslenght)=> {
   setIsGameOver(true);
+  setGuessNumber(gueslenght)
  }
 
  const startNewGameHandler = ()=> {
