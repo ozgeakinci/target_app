@@ -24,7 +24,6 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.primary500,
     paddingVertical: 8,
     paddingHorizontal: 16,
-   
     elevation: 2,
   },
   buttonText: {

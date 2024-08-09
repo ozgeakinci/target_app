@@ -19,15 +19,15 @@ const styles = StyleSheet.create({
     container: {
         borderWidth:4,
         borderColor: Colors.accent500,
-        padding:deviceWidth < 380 ?  12 : 24 ,
-        margin:deviceWidth < 380 ?  12 : 24 ,
+        padding:deviceWidth < 480 ?  20 : 24 ,
+        margin:deviceWidth < 480 ?  20 : 24 ,
         borderRadius:8,
         alignItems: 'center',
         justifyContent: 'center'
     },
     numberText: {
         color: Colors.accent500,
-        fontSize:deviceWidth < 380 ?  12 : 24 ,
+        fontSize:deviceWidth < 380 ?  20 : 24 ,
         fontFamily: 'open-sans-bold'
         // fontWeight: 'bold'
 
